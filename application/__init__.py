@@ -1,7 +1,7 @@
 from flask import Flask
 
 def create_app():
-    application=app = Flask(__name__)
+    app = Flask(__name__)
     app.config['FLASK_ENV'] = 'development'
     app.config['DEBUG'] = False
     app.config['TESTING'] = True
